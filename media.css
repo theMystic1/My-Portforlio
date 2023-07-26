@@ -41,13 +41,13 @@
   }
 
   .right-section {
-    padding: 9.6rem 0;
+    padding: 3.2rem 0;
     align-items: center;
   }
 
   .left-section {
     align-items: start;
-    padding-top: 9.6rem;
+    padding-top: 4.8rem;
     /* margin-top: 10rem; */
   }
 
@@ -104,7 +104,7 @@
   }
 
   .info {
-    padding: 4.8rem 9.6rem;
+    padding: 0 9.6rem;
     margin-left: 0;
   }
 
@@ -129,7 +129,7 @@
 
   .icons {
     position: absolute;
-    top: 80rem;
+    top: 60rem;
     justify-content: center;
     align-items: center;
     padding-bottom: 4rem;
@@ -148,9 +148,13 @@
 
 @media (max-width: 24em) {
   .topbar {
-    padding: 4rem;
+    padding: 2.4rem;
   }
 
+  .flexbtn {
+    max-width: 10rem;
+    gap: 2rem;
+  }
   .btn {
     font-size: 1.2rem;
   }
@@ -166,5 +170,9 @@
 
   .desc p {
     font-size: 1.6rem;
+  }
+
+  .icons {
+    top: 65rem;
   }
 }
